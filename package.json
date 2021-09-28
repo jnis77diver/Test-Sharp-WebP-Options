@@ -1,0 +1,15 @@
+{
+  "name": "webp-compression-tests",
+  "version": "1.0.0",
+  "description": "Test webp compression using Sharp",
+  "main": "index.js",
+  "scripts": {
+    "compress": "node -e 'require(\"./index\").createWebP()'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sharp": "^0.29.1"
+  }
+}
